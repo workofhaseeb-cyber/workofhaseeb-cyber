@@ -5,11 +5,11 @@
 
 <p align="center">
   <a href="https://www.lifeofhaseeb.com">
-    <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&amp;weight=600&amp;size=22&amp;duration=3200&amp;pause=900&amp;color=C2A4FF&amp;center=true&amp;vCenter=true&amp;width=720&amp;lines=AI+Automation+%26+Applied+AI+Engineer;AI+agents+%E2%80%A2+WhatsApp+bots+%E2%80%A2+n8n+workflows;LLM+%2B+RAG+on+your+company+data;Helping+UAE+businesses+cut+manual+work;AI+training+%26+workshops+%E2%80%A2+AI+video;Abu+Dhabi+%E2%80%A2+Dubai+%E2%80%A2+Remote+%F0%9F%87%A6%F0%9F%87%AA" alt="Typing intro" />
+    <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&amp;weight=600&amp;size=22&amp;duration=3200&amp;pause=900&amp;color=C2A4FF&amp;center=true&amp;vCenter=true&amp;width=720&amp;lines=AI+Automation+%26+Applied+AI+Engineer;AI+agents+%E2%80%A2+WhatsApp+bots+%E2%80%A2+n8n+workflows;LLM+%2B+RAG+on+your+company+data;Helping+GCC+businesses+cut+manual+work;AI+training+%26+workshops+%E2%80%A2+AI+video;Abu+Dhabi+%E2%80%A2+Dubai+%E2%80%A2+Remote+%F0%9F%87%A6%F0%9F%87%AA" alt="Typing intro" />
   </a>
 </p>
 
-<h3 align="center">I help UAE businesses replace repetitive work with AI agents, WhatsApp automation and n8n workflows.</h3>
+<h3 align="center">I help businesses across the GCC (UAE, KSA, Qatar, Kuwait, Bahrain, Oman) replace repetitive work with AI agents, WhatsApp automation and n8n workflows.</h3>
 
 <p align="center">
   <!-- BOOKING_LINK: https://cal.com/muhammad-haseeb-6xxunl/discovery-call -->
@@ -32,7 +32,7 @@
 
 ---
 
-### 🤖 AI Automation Services for UAE businesses
+### 🤖 AI Automation Services for GCC businesses
 
 | Service | What your business gets |
 |---|---|
@@ -42,7 +42,8 @@
 | 📄 **Document & invoice processing** | AI reads invoices, POs and forms and pushes clean data into your systems, cutting finance and admin processing time |
 | 🎯 **CRM & lead-qualification automation** | Every lead captured, scored and routed instantly, so sales follow up faster and no enquiry is lost |
 | 🧠 **Custom LLM / RAG on your company data** | A private AI assistant that answers from your own documents, policies and catalog, with fewer hours spent searching |
-| 🎓 **AI training & workshops** (EN/AR) | Hands-on sessions for UAE teams and individuals on building automations (n8n, AI agents) and using Claude, ChatGPT and other AI tools to boost daily productivity |
+| 🏢 **Custom ERP systems** for large companies | Finance, HR, inventory, procurement and sales in one system, with AI automation built in |
+| 🎓 **AI training & workshops** (EN/AR) | Hands-on sessions for GCC teams and individuals on building automations (n8n, AI agents) and using Claude, ChatGPT and other AI tools to boost daily productivity |
 | 🎬 **AI video generation, editing & clipping** | AI-generated videos, edits and short clips for social media and marketing |
 
 **How I work**
