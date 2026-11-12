@@ -164,6 +164,7 @@ const haseeb = {
 </p>
 
 <!-- ============ FOOTER ============ -->
+<!-- Stats, 3D calendar and snake refresh daily via .github/workflows/profile-assets.yml -->
 <p align="center">
   <i>Most of my work lives in private client repositories. Private contributions are counted above.</i>
 </p>
