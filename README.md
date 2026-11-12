@@ -12,8 +12,8 @@
 <h3 align="center">I help UAE businesses replace repetitive work with AI agents, WhatsApp automation and n8n workflows.</h3>
 
 <p align="center">
-  <!-- BOOKING_LINK: replace the mailto below with the booking-calendar URL -->
-  <a href="mailto:workofhaseeb@gmail.com?subject=Free%20AI%20automation%20call"><img src="https://img.shields.io/badge/%F0%9F%93%85%20Book%20a%20free%2020--min-AI%20automation%20call-7f40ff?style=for-the-badge&amp;logo=googlecalendar&amp;logoColor=white&amp;labelColor=4b1fa8" alt="Book a free 20-minute AI automation call" /></a>
+  <!-- BOOKING_LINK: https://cal.com/muhammad-haseeb-6xxunl/discovery-call -->
+  <a href="https://cal.com/muhammad-haseeb-6xxunl/discovery-call"><img src="https://img.shields.io/badge/%F0%9F%93%85%20Book%20a%20free%2020--min-AI%20automation%20call-7f40ff?style=for-the-badge&amp;logo=googlecalendar&amp;logoColor=white&amp;labelColor=4b1fa8" alt="Book a free 20-minute AI automation call" /></a>
   <a href="https://wa.me/971542919818?text=Hi%20Haseeb%2C%20I%27d%20like%20to%20discuss%20AI%20automation"><img src="https://img.shields.io/badge/WhatsApp-%2B971%2054%20291%209818-25D366?style=for-the-badge&amp;logo=whatsapp&amp;logoColor=white&amp;labelColor=0b080c" alt="WhatsApp" /></a>
   <a href="https://www.linkedin.com/in/haseeburrehman-ai"><img src="https://img.shields.io/badge/LinkedIn-haseeburrehman--ai-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white&amp;labelColor=0b080c" alt="LinkedIn" /></a>
 </p>
