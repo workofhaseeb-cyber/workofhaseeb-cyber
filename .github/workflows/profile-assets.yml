@@ -1,0 +1,73 @@
+name: Update profile assets
+
+# Regenerates the stats cards, 3D contribution calendar and snake animation
+# once a day using a personal access token (secret PROFILE_TOKEN, classic PAT
+# with `repo` + `read:user`) so private-repo activity is included.
+
+on:
+  schedule:
+    - cron: "17 2 * * *"   # daily, 06:17 Asia/Dubai
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/profile-assets.yml"
+      - "profile-3d-contrib/*.json"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-assets
+  cancel-in-progress: true
+
+env:
+  CARD_COLORS: bg_color=0b080c&title_color=c2a4ff&icon_color=7f40ff&text_color=e6deff&ring_color=7f40ff&border_color=2d1b4e&border_radius=12
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Stats card (includes private contributions)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&count_private=true&rank_icon=github&custom_title=Haseeb's GitHub Stats&card_width=470&${{ env.CARD_COLORS }}
+          path: profile/stats.svg
+          token: ${{ secrets.PROFILE_TOKEN }}
+          fail_on_error: true
+
+      - name: Top languages card (includes private repos)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&card_width=400&custom_title=Most Used Languages&exclude_repo=recovery-decisions&${{ env.CARD_COLORS }}
+          path: profile/top-langs.svg
+          token: ${{ secrets.PROFILE_TOKEN }}
+          fail_on_error: true
+
+      - name: 3D contribution calendar
+        uses: yoshi389111/github-profile-3d-contrib@v0.9.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          SETTING_JSON: profile-3d-contrib/haseeb-purple.json
+
+      - name: Snake animation
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          github_token: ${{ secrets.PROFILE_TOKEN }}
+          outputs: |
+            dist/snake-purple.svg?palette=github-dark&color_snake=#c2a4ff&color_dots=#161b22,#3d2470,#5a32a3,#7f40ff,#c2a4ff
+
+      - name: Commit updated assets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile dist profile-3d-contrib
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: refresh profile stats [skip ci]"
+          git push
